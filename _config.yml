@@ -94,11 +94,8 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
-#     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+
+
 
 # ---------------- #
 #      Comments    #
@@ -109,12 +106,12 @@ comments_provider: gitalk
 disqus:
     username:
 # https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: pureyb
-    repo: blog-comments
-    oauth:
-        client_id: bb358de60a8ab536d52e
-        client_secret: c3f07830f750d006804c2f8e6ea4a98b08afcc17
+# gitment:
+#     owner: pureyb
+#     repo: blog-comments
+#     oauth:
+#         client_id: bb358de60a8ab536d52e
+#         client_secret: c3f07830f750d006804c2f8e6ea4a98b08afcc17
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: pureyb
