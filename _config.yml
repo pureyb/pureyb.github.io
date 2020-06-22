@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://pureyb.github.io/
+url: https://pureyb.github.io
 date_format: "ordinal"
 title: bo
 subtitle: "橘子辉煌o"
