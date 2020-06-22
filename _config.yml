@@ -113,14 +113,14 @@ gitment:
     owner: pureyb
     repo: blog-comments
     oauth:
-        client_id: 9e2f3c376d809c83f9cb
-        client_secret: b37c7f41daa79d207810a49f57bdf8c2346fbf54
+        client_id: bb358de60a8ab536d52e
+        client_secret: c3f07830f750d006804c2f8e6ea4a98b08afcc17
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: pureyb
     repo: blog-comments
-    clientID: 9e2f3c376d809c83f9cb
-    clientSecret: b37c7f41daa79d207810a49f57bdf8c2346fbf54
+    clientID: bb358de60a8ab536d52e
+    clientSecret: c3f07830f750d006804c2f8e6ea4a98b08afcc17
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
