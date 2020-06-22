@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://www.oidbo.com
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+title: bo
+subtitle: "橘子辉煌o"
+description: "杨博的个人博客"
+keywords: bo,
+timezone: Asia/HangZhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: pureyb/pureyb.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -38,12 +38,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: bo.Yang
+organization:
+organization_url:
+github_username: pureyb
+location: HangZhou, China
+email: bo.yang@oidbo.com
 
 # ---------------- #
 #    Navigation    #
@@ -57,21 +57,13 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: 归档
 
 #   -
 #     href: /open-source/
 #     label: 开源
-
-  -
-    href: /wiki/
-    label: 维基
-
-  -
-    href: /links/
-    label: 链接
 
   -
     href: /about/
@@ -113,24 +105,22 @@ collections:
 # ---------------- #
 # support provider: disqus, gitment, gitalk
 comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: pureyb
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 9e2f3c376d809c83f9cb
+        client_secret: b37c7f41daa79d207810a49f57bdf8c2346fbf54
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: pureyb
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 9e2f3c376d809c83f9cb
+    clientSecret: b37c7f41daa79d207810a49f57bdf8c2346fbf54
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -139,7 +129,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 
@@ -150,6 +140,6 @@ google:
     analytics_id: UA-80669434-1
     adsense:
         footer: true
-        sidebar: true 
+        sidebar: true
         content_header: true
         content_footer: false
