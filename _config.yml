@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://www.oidbo.com
+url: https://www.https://pureyb.github.io/
 date_format: "ordinal"
 title: bo
 subtitle: "橘子辉煌o"
@@ -43,7 +43,7 @@ organization:
 organization_url:
 github_username: pureyb
 location: HangZhou, China
-email: bo.yang@oidbo.com
+email: bo.yang@https://pureyb.github.io/
 
 # ---------------- #
 #    Navigation    #
