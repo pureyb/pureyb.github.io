@@ -100,16 +100,6 @@ plugins:
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# https://disqus.com
-gitment:
-    owner: pureyb
-    repo: blog-comments
-    enable: false
-    oauth:
-        client_id: bb358de60a8ab536d52e
-        client_secret: c3f07830f750d006804c2f8e6ea4a98b08afcc17
 # https://github.com/gitalk/gitalk#install
 gitalk:
   enable: true
@@ -124,6 +114,7 @@ gitalk:
   pagerDirection: last
   createIssueManually: true
   distractionFreeMode: false
+
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
