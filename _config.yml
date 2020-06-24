@@ -109,7 +109,6 @@ gitalk:
   owner: pureyb
   IdPrefix: gitalk
   labels: gitalk
-  id: location.pathname
   perPage: 10
   pagerDirection: last
   createIssueManually: true
