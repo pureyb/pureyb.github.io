@@ -110,8 +110,6 @@ gitalk:
   owner: pureyb
   IdPrefix: gitalk
   labels: gitalk
-  perPage: 10
-  pagerDirection: last
   createIssueManually: true
   distractionFreeMode: false
 
