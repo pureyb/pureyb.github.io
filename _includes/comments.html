@@ -46,7 +46,7 @@
             repo: '{{ site.gitalk.repo }}',
             owner: '{{ site.gitalk.owner }}',
             admin: ['{{ site.gitalk.owner }}'],
-            labels: ['site.gitalk.labels'],
+            labels: ['{{site.gitalk.labels}}'],
             perPage: 50,
         });
         gitalk.render('gitalk-container');
