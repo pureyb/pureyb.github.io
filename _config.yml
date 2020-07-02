@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://pureyb.github.io
+url: https://Mr-Y-B.github.io
 date_format: "ordinal"
 title: bo
 subtitle: "橘子辉煌o"
@@ -11,7 +11,7 @@ keywords: bo,
 timezone: Asia/HangZhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: pureyb/pureyb.github.io
+repository: Mr-Y-B/Mr-Y-B.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -41,7 +41,7 @@ highlight_theme: github
 author: bo.Yang
 organization:
 organization_url:
-github_username: pureyb
+github_username: Mr-Y-B
 location: HangZhou, China
 email: bo.yang@oidbo.com
 
@@ -107,7 +107,7 @@ gitalk:
   ClientID: bb358de60a8ab536d52e
   ClientSecret: c3f07830f750d006804c2f8e6ea4a98b08afcc17
   repo: blog-comments
-  owner: pureyb
+  owner: Mr-Y-B
   IdPrefix: gitalk
   labels: gitalk
   createIssueManually: true
