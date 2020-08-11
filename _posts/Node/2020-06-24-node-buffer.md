@@ -3,7 +3,7 @@ layout: post
 title: Node Buffers
 categories: Node javaScript
 description:
-keywords: Node, javaScript, Buffers
+keywords: Node, javaScript
 topmost: true
 ---
 
